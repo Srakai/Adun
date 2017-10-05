@@ -21,10 +21,14 @@ There are 3 available injection techniques:
 * Spawning new thread
 
 You can choose technique by giving parameter -d to use direct or -p to use process, the default technique is thread.
+## Requirements
+
+* x86_64 GNU/Linux (tested on Kali Linux 4.12.0-kali2-amd64)
+
 
 ## Building
 ```
-git clone https://github.com/Srakai/Adun
+git clone https://github.com/Srakai/Adun.git
 cd Adun
 make
 ```
